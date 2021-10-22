@@ -1,2 +1,2 @@
 # Useful Scripts
-just a repo to store usefull scripts that I use daily
+just a repo to store useful scripts that I use daily
