@@ -1,6 +1,6 @@
-PM=dnf
-USER_NAME="wvxbs"
-EMAIL="gabriel.ferreira7854@gmail.com"
+PM=
+USER_NAME=""
+EMAIL=""
 
 sudo $PM update
 
@@ -22,3 +22,27 @@ sudo $PM install pip
 sudo pip install undervolt
 
 sudo $PM install tlp
+
+sudo $PM install obs-studio
+
+sudo $PM install gnome-pomodoro
+
+sudo $PM install flatkpak
+
+sudo flatpak install flathub com.spotify.Client
+
+sudo flatpak install flathub com.discordapp.Discord
+
+sudo flatpak install flathub us.zoom.Zoom
+
+sudo flatpak install flathub com.visualstudio.code
+
+sudo flatpak install flathub org.chromium.Chromium
+
+sudo flatpak install flathub com.github.alainm23.planner
+
+sudo flatpak install flathub com.google.AndroidStudio
+
+sudo flatpak install flathub com.getpostman.Postman
+
+
