@@ -44,5 +44,3 @@ sudo flatpak install flathub com.github.alainm23.planner
 sudo flatpak install flathub com.google.AndroidStudio
 
 sudo flatpak install flathub com.getpostman.Postman
-
-
