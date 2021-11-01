@@ -27,7 +27,7 @@ sudo $PM install obs-studio -y
 
 sudo $PM install gnome-pomodoro -y
 
-sudo $PM install flatkpak -y
+sudo $PM install flatpak -y
 
 sudo flatpak install flathub com.spotify.Client -y
 
