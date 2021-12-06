@@ -1,6 +1,6 @@
-PM=dnf
-USER_NAME="wvxbs"
-EMAIL="gabriel.ferreira7854@gmail.com"
+PM=
+USER_NAME=
+EMAIL=
 
 sudo $PM update -y
 
