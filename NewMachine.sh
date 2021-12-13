@@ -14,20 +14,24 @@ sudo $PM install git  -y
 
 sudo $PM install neofetch -y
 
+sudo $PM install node nodejs -y
+
 git config --global user.name $USER_NAME
 git config --global user.email $EMAIL
 
-sudo $PM install npm -y
-
-sudo $PM install python -y
-
-sudo $PM install pyhton3 -y
-
-sudo $PM install pip -y
+sudo $PM install python pyhton3 pip -y
 
 sudo pip install undervolt
 
 sudo $PM install gnome-pomodoro -y
+
+sudo $PM remove -y docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux docker-engine-selinux docker-engine
+
+sudo $PM install dnf-plugins-core -y
+
+sudo $PM config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+
+sudo $PM install docker-ce docker-ce-cli containerd.io -y 
 
 sudo $PM install flatpak -y
 
