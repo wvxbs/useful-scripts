@@ -1,3 +1,4 @@
+TOUCHEGG= 
 PM=
 USER_NAME=
 EMAIL=
@@ -18,7 +19,7 @@ sudo $PM install docker-ce docker-ce-cli containerd.io -y
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-sudo flatpak run com.spotify.Client
+sudo flatpak install com.spotify.Client
 
 sudo flatpak install flathub com.discordapp.Discord
 
@@ -33,3 +34,10 @@ sudo flatpak install flathub com.getpostman.Postman
 git config --global user.name $USER_NAME
 
 git config --global user.email $EMAIL
+
+$TOUCHEGG
+sudo $PM install -y touchegg
+
+sudo $PM install -y akmod-nvidia xorg-x11-drv-nvidia-cuda
+
+sudo reboot
