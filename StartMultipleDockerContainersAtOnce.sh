@@ -1,4 +1,4 @@
-read -p "Enter component names separated by 'space' : " ARR
+read -p "Enter container names separated by 'space' : " ARR
 
 for i in ${ARR[@]}
 do
