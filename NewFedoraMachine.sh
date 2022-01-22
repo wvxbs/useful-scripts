@@ -6,7 +6,7 @@ sudo $PM update -y
 
 sudo $PM upgrade -y
 
-sudo $PM install -y firefox geary git neofetch nodejs python pyhton3 gnome-pomodoro dnf-plugins-core flatpak
+sudo $PM install -y firefox geary git neofetch nodejs python gnome-pomodoro dnf-plugins-core flatpak
 
 sudo $PM remove -y docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux docker-engine-selinux docker-engine
 
